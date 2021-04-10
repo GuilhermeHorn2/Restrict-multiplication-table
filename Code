@@ -1,0 +1,10 @@
+t = int(input("number to multiply:"))
+n = int(input('Start:'))
+nf = int(input('End:'))
+
+if n < nf:
+    while n <= nf:
+        print(t, 'X', n, ':', t * n)
+        n += 1
+else:
+    print('Invalid order')
